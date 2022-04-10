@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Jost', sans-serif;
+        background-image: url("https://thumbs.dreamstime.com/b/food-seamless-pattern-green-contour-grocery-vector-drinks-production-sale-background-white-line-icons-yellow-field-119511741.jpg");
+        background-size: cover;
+       
+    }
+
+    .signup {
+        background-image: linear-gradient(to right top, #052f37, #005b61, #008a7d, #00bb86, #12eb7d);
+        width: 300px;
+        height: 400px;
+        padding: 50px;
+        margin: 20px;
+        justify-content: center;
+        box-shadow: 3px 10px 30px 5px #f9f965;
+        border-radius:  20px 100px 20px 20px;
+    }
+
+    input {
+        font-size: 130%;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 10%;
+        border: 0px;
+        border-radius: 0px 20px 2px 10px;
+    }
+
+    label {
+        font-size: 350%;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(242, 236, 236);
+        justify-content: center;
+        display: flex;
+        margin: 20px;
+        font-weight: 900;
+    }
+
+    button {
+        width: 60%;
+        height: 40px;
+        margin: 10px auto;
+        justify-content: center;
+        display: block;
+        color: #fff;
+        background: #6cb150;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        transition: .2s ease-in;
+        cursor: pointer;
+    }
+    button:hover {
+		background: rgb(74, 99, 48);
+	}
+    
+</style>
+<body>
+
+    <div class="signup">
+        <center><label>SIGN UP!</label>
+        <input type="text" id="semail" placeholder="Email">
+        <input type="text" id="sname" placeholder="Username">
+        <input type="password" id="spwd" placeholder="Password">
+        <button id="sub_btn">Sign up</button>
+    </center>
+    </div>
+    
+</body>
+
+</html>
